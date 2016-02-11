@@ -42,7 +42,17 @@
         return YES;
     }
 
-    return [number boolValue];
+    /**
+     * Elli Rego added lines below to allow rotation in InAppBrowser.
+     *
+     * Updated 02/11/16.
+     */
+    //return [number boolValue];
+    return YES;
+    
+    /**
+     * End of Elli Rego's additions.
+     */
 }
 
 + (void)load
